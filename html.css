@@ -20,7 +20,7 @@ justify-content: space-evenly;
 
 }
 .logo{
-  background-image: url("M-Mart 4.jpg");
+  background-image: url("M-Mart\ 4.png");
   background-size: cover;
   height: 60px;
   width:100%
