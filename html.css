@@ -1,7 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif,Georgia;
+}
+body{
+  background-color: #ffffff;
 }
 .navbar{
   display: flex;
@@ -29,7 +32,7 @@ justify-content: space-evenly;
   border:  2px solid transparent;
 }
 .border :hover{
-  border: 2px solid white;
+  border: 2px solid rgb(3, 3, 3);
 }
 .nav-address{
   display:flex;
@@ -201,7 +204,7 @@ justify-content: center;
 /*================================================Hero section===================================================*/
 
  /* set the box for the slides */
- .parent { height: 300px; width: 1536px; overflow: hidden;}
+ .parent { height: 300px; overflow: hidden;}
  /* set height and width for slide elements */
  .element {float: left; height: 300px; width:1536px; backgroundcolor: grey; }
  /* set the width of the slides div and animation. */
@@ -216,8 +219,110 @@ justify-content: center;
     80% {margin-left: calc(-1536px * 3);}
  }
   
+.head-grocery{
+  display:flex;
+  margin-top: 40px;
+  height: 100px;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  color:#ffffff;
+  font-size: 3rem;
+  font-weight: bolder;
+  text-decoration:underline;
+
+}
+.groceries{
+  display: flex;
+  height: 400px;
+  font-weight: 100%;
+  justify-content: space-evenly;
+}
+.sub-grocery{
+height:250px;
+width: 250px;
+margin-top:60px;
+
+}
+
+
+.head-fashion{
+  display:flex;
+  height: 100px;
+  background-color: #c6ce;
+  align-items: center;
+  justify-content: center;
+  color:#ffffff;
+  font-size: 3rem;
+  font-weight: bolder;
+  text-decoration:underline;
+
+}
+
+.fashion{
+  display: flex;
+  height: 400px;
+  font-weight: 100%;
+  justify-content: space-evenly;
+}
+.sub-fashion{
+height:250px;
+width: 250px;
+margin-top:60px;
+
+}
 
 
 
 
+.head-appliances{
+  display:flex;
+  height: 100px;
+  background-color: #1fbcff;
+  align-items: center;
+  justify-content: center;
+  color:#ffffff;
+  font-size: 3rem;
+  font-weight: bolder;
+  text-decoration:underline;
+}
 
+.appliances{
+  display: flex;
+  height: 400px;
+  font-weight: 100%;
+  justify-content: space-evenly;
+}
+.sub-appliances{
+height:250px;
+width: 250px;
+margin-top:60px;
+
+}
+
+
+.head-electronics{
+  display:flex;
+  height: 100px;
+  background-color: #9c89e9;
+  align-items: center;
+  justify-content: center;
+  color:#ffffff;
+  font-size: 3rem;
+  font-weight: bolder;
+  text-decoration:underline;
+
+}
+
+.electronics{
+  display: flex;
+  height: 400px;
+  font-weight: 100%;
+  justify-content: space-evenly;
+}
+.sub-electronics{
+height:250px;
+width: 250px;
+margin-top:60px;
+
+}
